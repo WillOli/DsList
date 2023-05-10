@@ -26,6 +26,7 @@ public class Game {
     @Column(columnDefinition = "TEXT")
     private String longDescription;
 
+    /*Construtor vazio*/
     public Game() {
 
     }
