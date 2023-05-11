@@ -12,7 +12,13 @@ public class GameList {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+
+
     /*Construtor vazio*/
+    public GameList() {
+
+    }
+
     public GameList(Long id, String name){
         this.id = id;
         this.name = name;
