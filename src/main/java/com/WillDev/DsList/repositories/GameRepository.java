@@ -1,6 +1,5 @@
 package com.WillDev.DsList.repositories;
 
-import com.WillDev.DsList.dto.GameMinDTO;
 import com.WillDev.DsList.entities.Game;
 import com.WillDev.DsList.projection.GameMinProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
